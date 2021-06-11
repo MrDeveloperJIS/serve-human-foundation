@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0 5px;
+	vertical-align: top;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	color: #0000ff;
+	text-align: center;
+}
+
+p {
+	color: #ff0000;
+	background-color: rgb(154, 205, 50);
+}
+
+h2 {
+	color: teal;
+	text-align: center;
+}
+
+ul {
+	color: brown;
+	background-color: wheat;
+	overflow: hidden;
+}
+
+form {
+	background-color: floralwhite;
+}
+
+#btn {
+	font-size: 14px;
+	color: red;
+	padding: 2px;
+	margin: 5px;
+}

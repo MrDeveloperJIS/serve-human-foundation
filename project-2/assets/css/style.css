@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding: 10vh 10vw;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    scrollbar-width: 1em;
+}
+
+main {
+    width: 80vw;
+    min-height: 80vh;
+    border-radius: 80px;
+    background-color: black;
+    padding: 25px;
+
+}
+
+footer {
+    height: 10vh;
+}
+
+
+* a {
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav {
+    /* border: 1px solid; */
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 25px;
+}
+
+nav h1 {
+    width: fit-content;
+    display: inline;
+    float: left;
+    color: orangered;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+nav h1 span {
+    color: white;
+}
+
+nav ul li {
+    width: fit-content;
+    float: left;
+    margin: 8px;
+}
+
+nav ul li span {
+    margin: 2px;
+    word-spacing: 3px;
+}
+
+nav ul li i {
+    font-size: 0;
+}
+
+nav ul li>a.active {
+    color: orangered;
+}
+
+nav ul li:hover {
+    color: orangered;
+    transition: 1s;
+}
+
+nav ul li>a.active::after,
+nav ul li>a.active::before {
+    content: "---";
+    font-weight: bold;
+}

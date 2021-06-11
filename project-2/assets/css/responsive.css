@@ -1,0 +1,30 @@
+@media (min-width:1025px) {
+
+    /* as usual style.css */
+
+}
+
+@media (max-width:1024px) {
+
+    body {
+        min-width: 900px;
+    }
+    main {
+        min-width: 720px;
+
+    }
+    
+}
+
+@media (max-width:720px) {
+
+    
+
+}
+
+@media (max-width:460px) {
+
+    
+
+}
+

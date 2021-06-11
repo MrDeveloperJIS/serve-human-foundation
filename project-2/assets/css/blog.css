@@ -1,0 +1,45 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#752575, #3b4cafe0), url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.data {
+    position: relative;
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content:initial;
+    margin: 20px;
+}
+
+.data img {
+    height: 200px;
+}
+
+.data h3 {
+    margin: 10px 20px;
+    position: relative;
+    color: orangered;
+    transition: 1s;
+}
+
+.data p {
+    position: absolute;
+    margin: 50px 20px 0 250px;
+    text-align: justify;
+    overflow:hidden;
+}
+
+.data p>a {
+    color: orangered;
+    font-style: italic;
+}

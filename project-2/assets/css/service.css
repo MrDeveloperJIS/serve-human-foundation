@@ -1,0 +1,60 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#752575, #3b4cafe0), url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    overflow: hidden;
+}
+
+p {
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify|center;
+}
+
+div.data,
+div.portfolio {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.data>i {
+    font-size: 2em;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.data>h3 {
+    margin: 20px auto 0;
+    text-transform: capitalize;
+    color: orangered;
+}
+
+.data>i:hover {
+    color: orangered;
+    transition: 1s;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.portfolio>img {
+    width: 100%;
+    margin-bottom: 20px;
+}

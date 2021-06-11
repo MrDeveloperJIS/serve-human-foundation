@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 720px;
+    max-width: 1024px;
+    margin: auto;
+}

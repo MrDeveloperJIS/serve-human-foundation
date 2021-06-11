@@ -1,0 +1,99 @@
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(#752575, #3b4cafe0), url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+div#main-left {
+    width: 58%;
+    float: left;
+}
+
+div#main-left div.outer {
+    width: 100%;
+
+    margin: 12px 0;
+    display: block;
+    /* position: static; */
+}
+
+div#main-left div.outer>p {
+    text-align: justify;
+    padding: 0 20px 0 0;
+}
+
+div#main-left div.outer>div.inner {
+    /* position: relative; */
+    padding: 5px;
+    float: left;
+}
+
+div#main-left div.outer>div.inner:first-child {
+    width: 6%;
+    vertical-align: middle;
+    text-align: center;
+    color: orangered;
+}
+
+div#main-left div.outer>div.inner:last-child {
+    width: 94%;
+    text-align: left;
+
+}
+
+div#main-left div.outer>div.inner:last-child>h3 {
+    color: orangered;
+}
+
+div#main-right {
+    width: 38%;
+    float: right;
+    margin: 12px 0;
+}
+
+div#main-right form input[type="text"],
+div#main-right form input[type="email"],
+div#main-right form textarea {
+    width: 100%;
+    outline: none;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div#main-right form input[type="reset"],
+div#main-right form input[type="submit"] {
+    background-color: orangered;
+    outline: none;
+    padding: 5px;
+    margin: 5px 5px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div#main-right form input[type="text"]:focus,
+div#main-right form input[type="email"]:focus,
+div#main-right form input[type="reset"]:focus,
+div#main-right form input[type="submit"]:focus,
+div#main-right form textarea:focus {
+    outline: none;
+}
+
+div#main-full {
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    bottom: 20vh;
+    margin: auto;
+}
+

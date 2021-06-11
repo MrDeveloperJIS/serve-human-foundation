@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Serve Human Foundation Web Template of MrDeveloperJIS using HTML, CSS & Bootstrap">
+    <meta name="keywords" content="Serve Human Foundation Web Template">
+    <meta name="author" content="Md. Jahidul Islam Sujan">
+    <meta name="copyright" content="Md. Jahidul Islam Sujan, MrDeveloperJIS">
+    <meta name="" content="">
+    <meta http-equiv="refresh" content="3600; url=https://mrdeveloperjis.github.io">
+    <meta http-equiv="refresh" content="300">
+    <!-- title & favicon -->
+    <title>Login To Rokomari | Rocomari.com</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/jpg" sizes="">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/234f83bcd8.js" crossorigin="mrdeveloperjis"></script>
+    <script src="https://kit.fontawesome.com/8e1d946c90.js" crossorigin="public"></script>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container-fluid">
+            <div class="row row-cols-3 row-cols-lg-3 g-2 g-lg-3 pt-4 pb-4 fixed-top bg-white">
+                <div class="col">
+                    <a href="index.html"><img class="mx-auto d-block site-logo" src="assets/img/rokomari_logo.png"
+                            alt="rokomari_logo"></a>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-bar-box" placeholder="Search"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary header-search-btn" type="button" id="button-addon2">
+                            <i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#"><i class="fas fa-shopping-cart float-end mt-1 fs-2 shopping-cart"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <button class="btn btn-outline-success sign-in-btn" type="button">Sign In</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">বই</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ইলেকট্রনিক্স</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">স্টেশনারী ও অন্যান্য</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="assets/img/icons8-gift-48.png" class="nav-item-icon" alt="">
+                        গিফট ফাইন্ডার</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">প্রাতিষ্ঠানিক অর্ডার</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">অফার সমূহ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ব্লগ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container-fluid">
+
+
+            <ul class="nav justify-content-center first-row">
+                <li class="nav-item">
+                    <img src="assets/img/rokomari-sign-in-page.gif" alt="">
+                </li>
+                <li class="nav-item">
+
+                    <div class="custom-sign">
+                        <h4>
+                            <button class="signIn-header">
+                                sign in
+                            </button>
+                            <button class="signUp-header">
+                                sign up
+                            </button>
+                            </h2>
+
+                            <p class="signIn">Login easily with your facebook or google account</p>
+                            <p class="signUp">Register fast with your facebook or google</p>
+
+                            <button class="btn-social-facebook"></button>
+                            <button class="btn-social-google"></button>
+
+                            <h5>OR</h5>
+
+                            <p class="signIn">Login with your email or phone number</p>
+                            <p class="signUp">Register with your information</p>
+                            <br><br>
+
+                            <form action="" class="signIn">
+                                <label for="email-phone"><i class="fa fa-envelope"></i></label>
+                                <input type="text" name="email-phone" id="email-phone" placeholder="email or phone"
+                                    required>
+                                <br>
+                                <label for="password"><i class="fas fa-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="password" required>
+                                <br>
+                                <input type="checkbox" name="remember-me" id="remember-me">
+                                <label for="remember-me">Remember Me</label>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="#" id="forgot-password">Forgot Password?</a>
+                                <br>
+                                <input type="submit" value="SIGN IN">
+                            </form>
+                            <br>
+                            <p class="signIn">
+                                <i>Don’t have an account?</i> <a href="#">Sign Up Now!</a>
+                            </p>
+
+
+                            <form action="" class="signUp">
+                                <label for="full-name"><i class="fa fa-user"></i></label>
+                                <input type="text" name="full-name" id="full-name" placeholder="Full name" required>
+                                <br>
+                                <label for="email"><i class="fas fa-lock"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+                                <br>
+                                <label for="phone"><i class="fa fa-phone"></i></label>
+                                <input type="tel" name="phone" id="phone" placeholder="Mobile no" required>
+                                <br>
+                                <label for="password"><i class="fas fa-lock"></i></label>
+                                <input type="password" name="password" id="password" placeholder="password" required>
+                                <br>
+                                <input type="checkbox" name="agree" id="agree" checked>
+                                <label for="agree">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy
+                                        Policy</a></label>
+                                <br>
+                                <input type="submit" value="Create account">
+                            </form>
+                            <br>
+                            <p class="signUp">
+                                <i>Already have an account? </i> <a href="#">Sign In Now!</a>
+                            </p>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </main>
+
+    <footer class="container large-footer">
+        <div class="container-fluid custom-container">
+            <div class="row pt-5">
+
+                <div class="col-3 col-xl-3">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/img/footer-img/onnorokom_logo.png"
+                                alt="OnnoRokom Web Service">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-9 col-xl-9">
+                    <div class="footer-all-links">
+                        <div class="footer-basic-info">
+                            <p><img src="assets/img/footer-img/icon-hotline.png" alt="Hotline"> Hotline <em>16297,
+                                    09609616297</em></p>
+                            <p><img src="assets/img/footer-img/icon-corporate.png" alt="Corporate Sales"> Corporate
+                                Sales <em>+8801708166238, +8801708166239, +8801708166242</em></p>
+                            <p><img src="assets/img/footer-img/icon-mail.png" alt="Email"> <a
+                                    href="mailto:admin@rokomari.com"> admin@rokomari.com</a> </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col copyright">
+            <p class="text-center"> © 2012-2021 Rokomari.com</p>
+        </div>
+
+
+    </footer>
+
+    <!-- bootstrap javascipt bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <!-- local javascipt -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

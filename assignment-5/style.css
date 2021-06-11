@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lobster', cursive;
+	min-width: 800px;
+}
+
+header {
+	min-width: 800px;
+	background-color: black;
+}
+
+nav {
+	color: white;
+	padding: 10px;
+}
+
+#title {
+	text-align: center;
+	font-size: 2em;
+}
+
+main {
+	width: 720px;
+	padding: 20px 40px;
+	margin: auto;
+	overflow: hidden;
+}
+
+div {
+	width: 214px;
+	height: 400px;
+	margin: 10px;
+	padding: 2px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border: 1px dashed;
+}
+
+main>section>div>img {
+	width: 100%;
+}
+
+main>section>div>p {
+	padding: 2px;
+}
+
+
+
+
+
+
+footer {
+	margin:0 auto 25px auto;
+	text-align: center;
+}
+
+footer a {
+	color: #000;
+	text-decoration: none;
+}

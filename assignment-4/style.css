@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: center;
+}
+
+body {
+	background-attachment: fixed;
+	background-color: #e3e3e3;
+	background-image: url("images/creative-background-with-white-lines.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: blue;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+* a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	display: block;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	z-index: 100;
+}
+
+nav {
+	padding: 10px;
+	display: block;
+}
+
+nav h1 {
+	text-align: center;
+}
+
+main {
+	padding: 0 10%;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: justify;
+}
+
+section {
+	padding: 50px 0 0 0;
+}
+
+#about h3,
+#edu h3,
+#skill h3 {
+	padding: 4px 0;
+	color: red;
+}
+
+#about p,
+#edu p {
+	padding-left: 3px;
+}
+
+#edu h4 {
+	margin: 2px 0;
+	border-bottom: 1px solid;
+	display: inline-flex
+}
+
+#skill div {
+	padding-left: 5px;
+}
+
+#skill div div * {
+	display: inline-flex;
+}
+
+#skill div div p {
+	float: right;
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
